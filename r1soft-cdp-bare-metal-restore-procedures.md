@@ -45,7 +45,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 ## Restoring your bare metal device
 {: #restoring-your-bare-metal-device}
 
-1. Open a ticket in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and request that we boot your bare metal server in **R1Soft Bare Metal Restore mode**.
+1. Open a ticket in the [{{site.data.keyword.slportal}}](https://cloud.ibm.com/login){:new_window} and request that we boot your bare metal server in **R1Soft Bare Metal Restore mode**.
 2. Using the **Device Details** page for the server that you are restoring, log in to the **IPMI KVM console**.
 3. After the console is up and the image boots, you will see a Debian bootloader screen with some options. Press the Enter key to boot from the default option.
 4. After the OS is booted, type `netconfig` and press **Enter**.
